@@ -1,8 +1,8 @@
 ---
-title: Best 13 Free Website Speed Test Tools (Excluding PageSpeed Insights)
+title: "Best 13 Free Website Speed Test Tools (Excluding PageSpeed Insights)"
 published: 2024-09-28
-description: Discover 12 top free website speed test tools to enhance your site’s performance, optimize load times, and boost user experience.
-tags: Tools
+description: "Discover 12 top free website speed test tools to enhance your site’s performance, optimize load times, and boost user experience."
+tags: [Tools]
 category: Guide
 draft: false
 ---
