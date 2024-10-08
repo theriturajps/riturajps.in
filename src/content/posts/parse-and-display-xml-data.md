@@ -2,7 +2,7 @@
 title: How to Parse and Display XML Data with JavaScript on Web Pages
 published: 2024-09-11
 description: "Learn how to parse XML data using JavaScript and display it on web pages. Perfect for beginners working with data-driven reports."
-tags: [Guide]
+tags: [XML Data]
 category: Guide
 draft: false
 ---
