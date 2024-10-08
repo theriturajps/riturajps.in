@@ -61,7 +61,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'E-Mail',
       icon: 'fa6-solid:envelope',
-      url: 'iamriturajps@gmail.com',
+      url: 'mailto:iamriturajps@gmail.com',
     },
     {
       name: 'GitHub',
