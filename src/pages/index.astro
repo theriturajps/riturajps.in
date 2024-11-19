@@ -38,87 +38,7 @@ const stack = [
     text: "Tailwind", 
     icon: "tailwind", 
     href: "https://tailwindcss.com" 
-  },
-  { 
-    text: "Bash", 
-    icon: "bash", 
-    href: "https://www.gnu.org/software/bash/" 
-  },
-  { 
-    text: "Python", 
-    icon: "python", 
-    href: "https://www.python.org/" 
-  },
-  { 
-    text: "C++", 
-    icon: "c++", 
-    href: "https://isocpp.org/" 
-  },
-  { 
-    text: "Canva", 
-    icon: "canva", 
-    href: "https://canva.com" 
-  },
-  { 
-    text: "CSS3", 
-    icon: "css3", 
-    href: "https://developer.mozilla.org/en-US/docs/Web/CSS" 
-  },
-  { 
-    text: "Figma", 
-    icon: "figma", 
-    href: "https://www.figma.com/" 
-  },
-  { 
-    text: "Firebase", 
-    icon: "firebase", 
-    href: "https://firebase.google.com/" 
-  },
-  { 
-    text: "Git", 
-    icon: "git", 
-    href: "https://git-scm.com/" 
-  },
-  { 
-    text: "Github", 
-    icon: "github", 
-    href: "https://github.com/theriturajps" 
-  },
-  { 
-    text: "HTML", 
-    icon: "html", 
-    href: "https://developer.mozilla.org/en-US/docs/Web/HTML" 
-  },
-  { 
-    text: "JSON", 
-    icon: "json", 
-    href: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON" 
-  },
-  { 
-    text: "MARKDOWN", 
-    icon: "markdown", 
-    href: "https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" 
-  },
-  { 
-    text: "MySQL", 
-    icon: "mysql", 
-    href: "https://www.mysql.com/" 
-  },
-  { 
-    text: "NodeJS", 
-    icon: "nodejs", 
-    href: "https://nodejs.org/en" 
-  },
-  { 
-    text: "ReactJS", 
-    icon: "reactjs", 
-    href: "https://react.dev/" 
-  },
-  { 
-    text: "StackJS", 
-    icon: "solidjs", 
-    href: "https://www.solidjs.com" 
-  },
+  }
 ]
 ---
 
@@ -228,8 +148,8 @@ const stack = [
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
             {stack.map(item => (
-              <!-- <StackCard  text={item.text} icon={item.icon} href={item.href}/> -->
-              <StackIcon name={item.icon} />
+              <StackCard  text={item.text} icon={item.icon} href={item.href}/>
+              <!-- <StackIcon name={item.icon} /> -->
             ))}
           </div>
           <div>
