@@ -50,6 +50,9 @@ dependencies:
   typescript:
     specifier: ^5.3.3
     version: 5.4.2
+  tech-stack-icons:
+    specifier: ^2.1.0
+    version: 2.1.0
 
 packages:
 
