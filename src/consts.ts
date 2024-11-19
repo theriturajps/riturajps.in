@@ -56,25 +56,25 @@ export const SOCIALS: Socials = [
   {
     NAME: 'Email',
     ICON: 'email',
-    TEXT: 'iamriturajps@gmail.com',
+    TEXT: 'Click to Mail',
     HREF: 'mailto:iamriturajps@gmail.com',
   },
   {
     NAME: 'Github',
     ICON: 'github',
-    TEXT: 'markhorn-dev',
+    TEXT: '@theriturajps',
     HREF: 'https://github.com/theriturajps',
   },
   {
     NAME: 'LinkedIn',
     ICON: 'linkedin',
-    TEXT: 'markhorn-dev',
+    TEXT: '@iamriturajps',
     HREF: 'https://www.linkedin.com/in/iamriturajps/',
   },
   {
     NAME: 'Twitter',
     ICON: 'twitter-x',
-    TEXT: 'markhorn_dev',
+    TEXT: '@riturajps',
     HREF: 'https://twitter.com/riturajps',
   },
 ]
