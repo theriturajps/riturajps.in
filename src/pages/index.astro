@@ -6,7 +6,6 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
-import StackIcon from "tech-stack-icons"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
