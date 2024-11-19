@@ -6,6 +6,7 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+import StackIcon from "tech-stack-icons"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -227,11 +228,8 @@ const stack = [
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
             {stack.map(item => (
-              <StackCard 
-                text={item.text}
-                icon={item.icon}
-                href={item.href}
-              />
+              <!-- <StackCard  text={item.text} icon={item.icon} href={item.href}/> -->
+              <StackIcon name={item.icon} />
             ))}
           </div>
           <div>
